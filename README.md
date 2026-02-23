@@ -10,6 +10,21 @@ Hito+ is a Windows Flutter desktop app with monochrome planner/journal modules:
 - AI Chat
 - Settings
 
+## Open Source
+
+This repository is open source under the MIT License.
+
+- License file: `LICENSE`
+
+## Executable Files In Repo
+
+Prebuilt Windows binaries are included in `release/`:
+
+- `release/hito_plus.exe`
+- `release/hito_plus_setup_1.0.0.exe`
+- `release/hito_plus_portable_1.0.0.zip`
+- `release/checksums.sha256`
+
 ## Practical Use (Vibe Coding)
 
 This project is built as practical personal tools using vibe coding:
