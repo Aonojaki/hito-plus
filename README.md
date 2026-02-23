@@ -10,6 +10,26 @@ Hito+ is a Windows Flutter desktop app with monochrome planner/journal modules:
 - AI Chat
 - Settings
 
+## Practical Use (Vibe Coding)
+
+This project is built as practical personal tools using vibe coding:
+
+- `Calendar`: visual life-progress grid (editable lifespan + year row layout).
+- `Notebook`: plain-text diary with page reorder/shuffle + calligraphy presets.
+- `Vision Board`: draggable text/image cards with local persistence.
+- `Planner`: goals + tasks with status and dates.
+- `Scrapper`: venting pad that is intentionally non-persistent.
+- `AI Chat`: assistant with local chat history and explicit confirmation before write actions.
+
+## Testing
+
+- Local test command: `flutter test`
+- Local analysis command: `flutter analyze`
+- CI: GitHub Actions workflow at `.github/workflows/windows-ci.yml`
+  - runs `flutter analyze`
+  - runs `flutter test`
+  - runs `flutter build windows --release`
+
 ## Development
 
 ```powershell
